@@ -45,5 +45,4 @@ if(isPalindroma(word)){
     //console.log('La parola inserita non è palindroma.')
     let answer = document.querySelector('.view');
     answer.innerHTML = 'La parola inserita non è palindroma.';
-
 }
