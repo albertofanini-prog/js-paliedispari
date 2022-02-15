@@ -29,6 +29,12 @@ const isOdd = function(numero){
 //console.log (isOdd)
 //console.log (choice, userNumber, cpuNumber)
 
-const risultato = userNumber + cpuNumber
+const result = userNumber + cpuNumber
 
-if (choice === 'pari' && isOdd (risultato)) || (choice === 'dispari' && !isOdd(risultato))
+//if (choice === 'pari' && isOdd (risultato) || choice === 'dispari' && !isOdd (risultato))
+// controllo chi ha vinto
+if (choice === 'pari' && result %2 == 0 || choice === 'dispari' && result %2 !== 0){
+    alert('hai vinto')
+} else {
+    alert('hai perso')
+}
